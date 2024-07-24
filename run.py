@@ -1,4 +1,4 @@
-import os, platform
+import os,platform,sys
 os.system('cls' if 'win' in sys.platform.lower() else 'clear')
 print('Checking Updates');os.system('git pull -q')
 bit = platform.architecture()[0]
