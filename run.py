@@ -5,5 +5,5 @@ bit = platform.architecture()[0]
 if bit == '32bit':
     print(f'32Bit coming soon ');exit()
 elif bit == '64bit':
-    import HENTAI
+    import MFBC
 else: print("Tool not supported");exit()
