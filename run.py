@@ -5,5 +5,5 @@ bit = platform.architecture()[0]
 if bit == '32bit':
     print(f'32Bit coming soon ');exit()
 elif bit == '64bit':
-    import MFBC
+    import RESM64
 else: print("Tool not supported");exit()
